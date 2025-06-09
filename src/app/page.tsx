@@ -11,7 +11,7 @@ export default function Home() {
             src="/barber.png"
             alt="BARBER STUDIO"
             fill
-            className="object-contain"
+            className="object-contain -z-10"
           />
           <h1 className="text-5xl md:text-6xl font-extrabold tracking-wider mb-4">
             BAR&nbsp;BER&nbsp;STUDIO
