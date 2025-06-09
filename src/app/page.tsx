@@ -1,11 +1,18 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-50 font-sans">
+    <div className="min-h-screen ">
       {/* ---------- Hero ---------- */}
-      <section className="bg-[url('/barber-hero.jpg')] bg-cover bg-center text-white">
+      <section className="relative text-white">
         <div className="backdrop-brightness-50 py-20 text-center">
+          <Image
+            src="/barber.png"
+            alt="BARBER STUDIO"
+            fill
+            className="object-contain"
+          />
           <h1 className="text-5xl md:text-6xl font-extrabold tracking-wider mb-4">
             BAR&nbsp;BER&nbsp;STUDIO
           </h1>
